@@ -1,3 +1,27 @@
+macro_select_all: macro_select_all{
+compatible = "zmk,behavior-macro";
+label = "macro_select_all";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp A>, <&kp K_COPY>;
+};
+macro_brutus_login: macro_brutus_login{
+compatible = "zmk,behavior-macro";
+label = "macro_brutus_login";
+#binding-cells = <0>;
+bindings = <&kp B>, <&kp R>, <&kp U>, <&kp T>, <&kp U>, <&kp S>, <&kp TAB>, <&kp CAPS>, <&kp T>, <&kp CAPS>, <&kp R>, <&kp A>, <&kp I>, <&kp N>, <&kp I>, <&kp N>, <&kp G>, <&kp RETURN>;
+};
+macro_opers: macro_opers{
+compatible = "zmk,behavior-macro";
+label = "macro_opers";
+#binding-cells = <0>;
+bindings = <&kp O>, <&kp P>, <&kp E>, <&kp R>, <&kp S>, <&kp SPACE>;
+};
+macro_uan_id: macro_uan_id{
+compatible = "zmk,behavior-macro";
+label = "macro_uan_id";
+#binding-cells = <0>;
+bindings = <&kp U>, <&kp A>, <&kp N>, <&kp SPACE>, <&kp I>, <&kp D>, <&kp SPACE>, <&kp LEFT_PARENTHESIS>, <&kp RIGHT_PARENTHESIS>, <&kp LEFT_ARROW>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
